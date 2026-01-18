@@ -1,0 +1,7 @@
+corpora/
+additional_files/
+.env
+.DS_Store
+__pycache__/
+*.pyc
+UV_ENV_REMINDER.md

@@ -1,0 +1,182 @@
+[
+    {
+        "essay_id": "5.74361E+12",
+        "prompt_name": "Phones and driving",
+        "agent_feedbacks": {
+            "major_thesis": {
+                "error": "Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'google/gemini-2.0-flash-exp:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Google', 'is_byok': False}}, 'user_id': 'user_2yYPdULrh8noWdYvVMPwQbpYDXB'}",
+                "score": "0",
+                "examiner_comment": "Error generating feedback."
+            },
+            "persuasiveness": {
+                "error": "Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '16', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1768747680000'}, 'provider_name': None}}, 'user_id': 'user_2yYPdULrh8noWdYvVMPwQbpYDXB'}",
+                "score": "0",
+                "examiner_comment": "Error generating feedback."
+            },
+            "structure": {
+                "error": "Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '16', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1768747680000'}, 'provider_name': None}}, 'user_id': 'user_2yYPdULrh8noWdYvVMPwQbpYDXB'}",
+                "score": "0",
+                "examiner_comment": "Error generating feedback."
+            },
+            "vocabulary": {
+                "error": "Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '16', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1768747680000'}, 'provider_name': None}}, 'user_id': 'user_2yYPdULrh8noWdYvVMPwQbpYDXB'}",
+                "score": "0",
+                "examiner_comment": "Error generating feedback."
+            },
+            "grammar": {
+                "error": "Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'google/gemini-2.0-flash-exp:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Google', 'is_byok': False}}, 'user_id': 'user_2yYPdULrh8noWdYvVMPwQbpYDXB'}",
+                "score": "0",
+                "examiner_comment": "Error generating feedback."
+            },
+            "additional_features": {
+                "error": "Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '16', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1768747680000'}, 'provider_name': None}}, 'user_id': 'user_2yYPdULrh8noWdYvVMPwQbpYDXB'}",
+                "score": "0",
+                "examiner_comment": "Error generating feedback."
+            }
+        }
+    },
+    {
+        "essay_id": "5.74361E+12",
+        "prompt_name": "Phones and driving",
+        "agent_feedbacks": {
+            "major_thesis": {
+                "error": "Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '16', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1768747680000'}, 'provider_name': None}}, 'user_id': 'user_2yYPdULrh8noWdYvVMPwQbpYDXB'}",
+                "score": "0",
+                "examiner_comment": "Error generating feedback."
+            },
+            "persuasiveness": {
+                "error": "Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '16', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1768747740000'}, 'provider_name': None}}, 'user_id': 'user_2yYPdULrh8noWdYvVMPwQbpYDXB'}",
+                "score": "0",
+                "examiner_comment": "Error generating feedback."
+            },
+            "structure": {
+                "error": "Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '16', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1768747740000'}, 'provider_name': None}}, 'user_id': 'user_2yYPdULrh8noWdYvVMPwQbpYDXB'}",
+                "score": "0",
+                "examiner_comment": "Error generating feedback."
+            },
+            "vocabulary": {
+                "error": "Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '16', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1768747740000'}, 'provider_name': None}}, 'user_id': 'user_2yYPdULrh8noWdYvVMPwQbpYDXB'}",
+                "score": "0",
+                "examiner_comment": "Error generating feedback."
+            },
+            "grammar": {
+                "error": "Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '16', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1768747740000'}, 'provider_name': None}}, 'user_id': 'user_2yYPdULrh8noWdYvVMPwQbpYDXB'}",
+                "score": "0",
+                "examiner_comment": "Error generating feedback."
+            },
+            "additional_features": {
+                "error": "Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '16', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1768747740000'}, 'provider_name': None}}, 'user_id': 'user_2yYPdULrh8noWdYvVMPwQbpYDXB'}",
+                "score": "0",
+                "examiner_comment": "Error generating feedback."
+            }
+        }
+    },
+    {
+        "essay_id": "5.74361E+12",
+        "prompt_name": "Phones and driving",
+        "agent_feedbacks": {
+            "major_thesis": {
+                "error": "Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1768780800000'}, 'provider_name': None}}, 'user_id': 'user_2yYPdULrh8noWdYvVMPwQbpYDXB'}",
+                "score": "0",
+                "examiner_comment": "Error generating feedback."
+            },
+            "persuasiveness": {
+                "error": "Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1768780800000'}, 'provider_name': None}}, 'user_id': 'user_2yYPdULrh8noWdYvVMPwQbpYDXB'}",
+                "score": "0",
+                "examiner_comment": "Error generating feedback."
+            },
+            "structure": {
+                "error": "Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '16', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1768747740000'}, 'provider_name': None}}, 'user_id': 'user_2yYPdULrh8noWdYvVMPwQbpYDXB'}",
+                "score": "0",
+                "examiner_comment": "Error generating feedback."
+            },
+            "vocabulary": {
+                "error": "Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '16', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1768747800000'}, 'provider_name': None}}, 'user_id': 'user_2yYPdULrh8noWdYvVMPwQbpYDXB'}",
+                "score": "0",
+                "examiner_comment": "Error generating feedback."
+            },
+            "grammar": {
+                "error": "Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '16', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1768747800000'}, 'provider_name': None}}, 'user_id': 'user_2yYPdULrh8noWdYvVMPwQbpYDXB'}",
+                "score": "0",
+                "examiner_comment": "Error generating feedback."
+            },
+            "additional_features": {
+                "error": "Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '16', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1768747800000'}, 'provider_name': None}}, 'user_id': 'user_2yYPdULrh8noWdYvVMPwQbpYDXB'}",
+                "score": "0",
+                "examiner_comment": "Error generating feedback."
+            }
+        }
+    },
+    {
+        "essay_id": "5.74361E+12",
+        "prompt_name": "Phones and driving",
+        "agent_feedbacks": {
+            "major_thesis": {
+                "error": "Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '16', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1768747800000'}, 'provider_name': None}}, 'user_id': 'user_2yYPdULrh8noWdYvVMPwQbpYDXB'}",
+                "score": "0",
+                "examiner_comment": "Error generating feedback."
+            },
+            "persuasiveness": {
+                "error": "Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '16', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1768747800000'}, 'provider_name': None}}, 'user_id': 'user_2yYPdULrh8noWdYvVMPwQbpYDXB'}",
+                "score": "0",
+                "examiner_comment": "Error generating feedback."
+            },
+            "structure": {
+                "error": "Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '16', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1768747800000'}, 'provider_name': None}}, 'user_id': 'user_2yYPdULrh8noWdYvVMPwQbpYDXB'}",
+                "score": "0",
+                "examiner_comment": "Error generating feedback."
+            },
+            "vocabulary": {
+                "error": "Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '16', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1768747800000'}, 'provider_name': None}}, 'user_id': 'user_2yYPdULrh8noWdYvVMPwQbpYDXB'}",
+                "score": "0",
+                "examiner_comment": "Error generating feedback."
+            },
+            "grammar": {
+                "error": "Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1768780800000'}, 'provider_name': None}}, 'user_id': 'user_2yYPdULrh8noWdYvVMPwQbpYDXB'}",
+                "score": "0",
+                "examiner_comment": "Error generating feedback."
+            },
+            "additional_features": {
+                "error": "Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '16', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1768747800000'}, 'provider_name': None}}, 'user_id': 'user_2yYPdULrh8noWdYvVMPwQbpYDXB'}",
+                "score": "0",
+                "examiner_comment": "Error generating feedback."
+            }
+        }
+    },
+    {
+        "essay_id": "5.74361E+12",
+        "prompt_name": "Phones and driving",
+        "agent_feedbacks": {
+            "major_thesis": {
+                "error": "Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '16', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1768747860000'}, 'provider_name': None}}, 'user_id': 'user_2yYPdULrh8noWdYvVMPwQbpYDXB'}",
+                "score": "0",
+                "examiner_comment": "Error generating feedback."
+            },
+            "persuasiveness": {
+                "error": "Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '16', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1768747860000'}, 'provider_name': None}}, 'user_id': 'user_2yYPdULrh8noWdYvVMPwQbpYDXB'}",
+                "score": "0",
+                "examiner_comment": "Error generating feedback."
+            },
+            "structure": {
+                "error": "Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '16', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1768747860000'}, 'provider_name': None}}, 'user_id': 'user_2yYPdULrh8noWdYvVMPwQbpYDXB'}",
+                "score": "0",
+                "examiner_comment": "Error generating feedback."
+            },
+            "vocabulary": {
+                "error": "Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1768780800000'}, 'provider_name': None}}, 'user_id': 'user_2yYPdULrh8noWdYvVMPwQbpYDXB'}",
+                "score": "0",
+                "examiner_comment": "Error generating feedback."
+            },
+            "grammar": {
+                "error": "Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '16', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1768747860000'}, 'provider_name': None}}, 'user_id': 'user_2yYPdULrh8noWdYvVMPwQbpYDXB'}",
+                "score": "0",
+                "examiner_comment": "Error generating feedback."
+            },
+            "additional_features": {
+                "error": "Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '16', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1768747860000'}, 'provider_name': None}}, 'user_id': 'user_2yYPdULrh8noWdYvVMPwQbpYDXB'}",
+                "score": "0",
+                "examiner_comment": "Error generating feedback."
+            }
+        }
+    }
+]
