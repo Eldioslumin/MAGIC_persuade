@@ -2,16 +2,16 @@ from .base import BasePrompts
 
 class GREAgentPrompts(BasePrompts):
     
-# MODIFIED THE FIRST ASPECT TO BE ABOUT THE MAJOR THESIS
+    # MODIFIED THE FIRST ASPECT TO BE ABOUT THE MAJOR THESIS
     aspect_1_rubric = """
 Aspect 1: Quality of the major thesis
-Score 6: A very strong thesis: Little can be done to strengthen the thesis
-Score 5: A strong thesis: Only minor changes can be made to strengthen the thesis.
-Score 4: A decent thesis: The thesis is generally good, though it can be strengthened in various aspects
-Score 3: A poor, understandable thesis: It may only be partially clear or contain severe errors that detract from its strength.
-Score 2: It is unclear what the author is trying to argue in the thesis (e.g., the thesis is not understandable; it is not relevant to the prompt; the thesis presents opposing views).
-Score 1: The essay presents no thesis of any kind.
-Score 0: The essay is off topic (i.e., provides no evidence of an attempt to respond to the assigned topic), written in a foreign language, merely copies the topic, consists of only keystroke characters, or is illegible or nonverbal.
+Score 6: The thesis is clear, specific, arguable, and directly addresses the prompt; it previews the essay’s main reasons OR stakes (why it matters).
+Score 5: The thesis is clear, specific, arguable, and relevant; it may hint at reasons/stakes but could be sharpened or made more specific.
+Score 4: The thesis is present and relevant but somewhat broad, generic, or only partially arguable; limited preview of reasons/stakes.
+Score 3: The thesis is weak or unclear (e.g., vague, overly factual, internally inconsistent, or hard to locate); relevance may be partial.
+Score 2: It is unclear what the author is arguing (e.g., thesis is not understandable, not relevant to the prompt, or mostly lists both sides without taking a position).
+Score 1: No defensible thesis (e.g., only background, only topic restatement, or only a list of points without a claim).
+Score 0: Off topic / non-response / foreign language / copied prompt
     """
 
     aspect_2_rubric = """
@@ -29,8 +29,8 @@ Score 0: The essay is off topic (i.e., provides no evidence of an attempt to res
 Aspect 3: Organizing, developing, and expressing ideas
 Score 6: The essay sustains a well-focused, well-organized analysis, connecting ideas logically. Counterclaims are used to strengthen the essays ideas, the lead attracts the readers attention, and the concluding argument provides a good summary of the claims.
 Score 5: The essay is focused and generally well organized, connecting ideas appropriately. Counterclaims are used, the lead is interesting, and there is a concluding argument.
-Score 4: The essay's ideas are adequately focused and organized. 
-Score 3: The essay is limited in focus and/or organization.
+Score 4: The essay is adequately organized: there is a discernible introduction, body, and conclusion; most paragraphs have a clear purpose, but transitions or ordering may be weak and elements like counterclaim/rebuttal/evidence may be inconsistent.
+Score 3: The essay shows limited organization: paragraphs may be repetitive or loosely connected; key elements are missing or hard to locate; ordering and transitions frequently confuse the argument.
 Score 2: The essay is poorly focused and/or poorly organized.
 Score 1: The essay provides little or no evidence of the ability to develop an organized response (e.g., is disorganized and/or extremely brief).
 Score 0: The essay is off topic (i.e., provides no evidence of an attempt to respond to the assigned topic), written in a foreign language, merely copies the topic, consists of only keystroke characters, or is illegible or nonverbal.
@@ -86,7 +86,7 @@ Similarly, a good thesis statement should also explain the importance of the top
 
 - Provide an appropriate holistic major thesis score.
 - Focus on areas to be improved upon
-- You will carefully read the rubric (<major_thesis_rubric>), prompt (<major_thesis_prompt>) and student essay (<student_essay>), as many times as needed.
+- You will carefully read the rubric (<major_thesis_rubric>), the **essay prompt (<essay_prompt>)**, and the student essay (<student_essay>) as many times as needed.
 - You will reason carefully as to why you chose this score following the rubric and guidelines.
 - You will provide a detailed step-by-step explanation of your reasoning for the score.
 - Use diverse vocabulary and structures that will enrich your answer, the student will learn more from your feedback this way.
@@ -123,7 +123,7 @@ Please provide a numerical score for the provided essay considering all aspects 
 - The length of the essay matters, a well developed essay should have at least 3-4 well written paragraphs.
 - You will carefully read the rubric (<persuasiveness_rubric>), prompt (<essay_prompt>) and student essay (<student_essay>), as many times as needed.
 - You will reason carefully as to why you chose this score following the rubric and guidelines.
-- You will provide a detailed step-by-step explanation of your reasoning for the score.
+- Identify 2–4 key reasons/examples from the essay (quote each briefly) and state whether each is specific and supported; then justify the holistic score using the rubric language.
 - Use diverse vocabulary and structures that will enrich your answer, the student will learn more from your feedback this way.
 - You will provide feedback for the student on how to improve the persuasive qualities of their essay.
 - A low score isn't harmful to the student. Rather, an accurate match to the rubric will help the student improve their score in future essays.
@@ -168,8 +168,12 @@ Keeping in mind the elements of an argumentative essay, which are:
 - Provide an appropriate holistic structure score.
 - Focus on areas to be improved upon
 - You will carefully read the rubric (<structure_rubric>), prompt (<essay_prompt>) and student essay (<student_essay>), as many times as needed.
-- You will reason carefully as to why you chose this score following the rubric and guidelines.
-- You will provide a detailed step-by-step explanation of your reasoning for the score.
+- Follow this procedure before scoring:
+    1) Element map: For each element below, output either "PRESENT" with a brief direct quote (1–2 sentences) showing it, or "MISSING".
+       Elements: Lead, Position (Major Thesis), Claim(s), Counterclaim, Rebuttal, Evidence, Concluding Statement.
+    2) Paragraph map: For each paragraph, label its main function (e.g., Lead/Position, Claim+Evidence, Counterclaim+Rebuttal, Conclusion).
+    3) Then assign the holistic structure score using the rubric, and explain the score using the element map and paragraph map.
+- Justify the score with 2–4 rubric-tied reasons, each referencing the element map and including a direct quote.
 - Use diverse vocabulary and structures that will enrich your answer, the student will learn more from your feedback this way.
 - You will provide feedback for the student on how to improve the structure of their essay, using the definitions of the elements of an argumentative essay to be precise about which parts require the most help.
 - A low score isn't harmful to the student. Rather, an accurate match to the rubric will help the student improve their score in future essays.
@@ -292,7 +296,7 @@ Remember, critics are not negative to the student. Rather, detailed feedback wil
     @classmethod
     def dump_prompts(cls) -> dict:
         return {
-            "argumentative_system_prompt": cls.argumentative_system_prompt,
+
             "vocabulary_system_prompt": cls.vocabulary_system_prompt,
             "grammar_system_prompt": cls.grammar_system_prompt,
             "major_thesis_prompt" : cls.major_thesis_prompt,
